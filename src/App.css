@@ -380,7 +380,7 @@
 .main-page__information-4__item__points-item {
   display: flex;
   flex-wrap: wrap;
-  align-items: baseline;
+  align-items: flex-end;
 }
 
 .main-page__information-4__item__points-item h1 {
@@ -403,4 +403,20 @@
   font-size: 18px;
   line-height: 130%;
   color: #676767;
+}
+
+.main-page__information-4__show-all {
+  margin-top: 50px;
+  display: flex;
+}
+
+.main-page__information-4__show-all button {
+  background: none;
+  border: none;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 130%;
+  color: #1EB6E0;
 }

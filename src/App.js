@@ -208,19 +208,19 @@ function App() {
             <div className="main-page__information-4__item__points">
               <div className="main-page__information-4__item__points-item">
                 <h1>1</h1>
-                <p>проектирование, разработка, изготовление электротехнического оборудования</p>
+                <p>проектирование, разработка, изготовление электротехнического <br/> оборудования</p>
               </div>
             </div>
             <div className="main-page__information-4__item__points">
               <div className="main-page__information-4__item__points-item">
-                <h1>1</h1>
-                <p>проектирование, разработка, изготовление электротехнического оборудования</p>
+                <h1>2</h1>
+                <p>проектирование электроснабжение и электрификации объектов <br/> промышленного и гражданского строительства</p>
               </div>
             </div>
             <div className="main-page__information-4__item__points">
               <div className="main-page__information-4__item__points-item">
-                <h1>1</h1>
-                <p>проектирование, разработка, изготовление электротехнического оборудования</p>
+                <h1>3</h1>
+                <p>проведение строительно-монтажных <br/>работ</p>
               </div>
             </div>
           </div>
