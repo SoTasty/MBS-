@@ -8,10 +8,14 @@ import plus from './png/plus.svg'
 import production from './png/production.png'
 import arrowDownBlue from './png/arrowDownBluesvg.svg'
 import arrowRightBlue from './png/arrowRightBlue.svg'
+import star1 from './png/Star 1.png'
+import star2 from './png/Star 2.png'
+import star3 from './png/Star 3.png'
+
 
 function App() {
   return (
-    <div>
+    <div className='main-page__wrapper'>
       <div className="main-page__wrapper-first">
         <div className="main-page__header">
         <a>
@@ -223,14 +227,18 @@ function App() {
                 <p>проведение строительно-монтажных <br/>работ</p>
               </div>
             </div>
-          </div>
-          <div className="main-page__information-4__show-all">
+            <div className="main-page__information-4__show-all">
             <button>Смотреть услуги</button>
             <img src={arrowRightBlue}></img>
           </div>
-          <div className="main-page__information-4__item"></div>
+          </div>
+
         </div>
-      
+        <div className="main-page__information-4__item__images">
+            <img src={star1}></img>
+            <img src={star2}></img>
+            <img src={star3}></img>
+        </div>
     </div>
   );
 }
